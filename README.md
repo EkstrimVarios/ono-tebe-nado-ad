@@ -1,4 +1,4 @@
-[https://github.com/MikeBeloborodov/ono-tebe-nado](https://github.com/EkstrimVarios/ono-tebe-nado-ad)
+https://github.com/EkstrimVarios/ono-tebe-nado-ad
 
 # Яндекс Практикум, 1 спринт, проект "Оно тебе надо"
 
@@ -20,13 +20,11 @@
 
 ### Ссылки
 
-- URL решения: [Github](https://github.com/MikeBeloborodov/ono-tebe-nado)
-- URL лайв сервера: [Netlify](https://startling-smakager-41be0b.netlify.app/)
+- URL решения: https://github.com/EkstrimVarios/ono-tebe-nado-ad
 
 ## Автор
 
 - Github - [MikEBeloborodov](https://github.com/MikeBeloborodov)
-- Frontend Mentor - [@MikeBeloborodov](https://www.frontendmentor.io/profile/MikeBeloborodov)
 
 ## Благодарность
 
