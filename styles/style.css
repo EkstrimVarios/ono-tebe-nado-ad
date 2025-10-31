@@ -34,7 +34,7 @@
     text-decoration: none;
 }
 
-.header-address {
+.address {
     justify-self: end;
     font-style: inherit;
 }
@@ -161,6 +161,15 @@
     list-style: none;
 }
 
+/*.lost-card-list-item {*/
+/*    height: 100%;*/
+/*}*/
+
+/*.card-link {*/
+/*    display: block;*/
+/*    height: 100%;*/
+/*}*/
+
 .card {
     position: relative;
     display: flex;
@@ -237,6 +246,10 @@
     justify-self: center;
 }
 
+/*.about-column_text {*/
+/*    grid-column: 2/4;*/
+/*}*/
+
 .about-logo {
     display: flex;
     justify-content: center;
@@ -269,4 +282,37 @@
 .about-text p {
     font-size: 20px;
     line-height: normal;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 180px 50px 82px;
+}
+
+.footer-menu-list {
+    text-align: center;
+    list-style: none;
+}
+
+.footer-menu-link {
+    font-size: 18px;
+    line-height: normal;
+    text-underline-position: under;
+}
+
+.footer-menu-link-active {
+    text-decoration: none;
+}
+
+.footer-social-list {
+    display: flex;
+    gap: 48px;
+    list-style: none;
+}
+
+.footer-social-icon {
+    width: 48px;
+    height: 48px;
 }
