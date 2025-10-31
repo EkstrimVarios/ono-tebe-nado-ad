@@ -10,37 +10,42 @@
     width: 148px;
     height: 105px;
 }
-/*список ссылок*/
+
 .header-links-list {
     display: flex;
     gap: 32px;
 }
-/*пункт списка ссылок*/
+
 .header-links-list-item {
     list-style: circle;
 }
-/*контейнер навигации*/
-.header-menu {
-)
-/*ссылка без кружочка*/
-.header-links-list-item-no-bullit {
 
+.header-links-list-item-no-bullit {
+    list-style: none;
 }
 
 .header-link {
-
+    font-size: 18px;
+    white-space: nowrap;
+    text-underline-position: under;
 }
+
 .header-link-active {
-}
-}
-
-.header-logo {
-
+    text-decoration: none;
 }
 
-.address {
-
+.header-address {
+    justify-self: end;
+    font-style: inherit;
 }
-/*для выравнивания блока с адресом (в футере используется другое выравнивание)*/
 
-.header-address
+.address-text {
+    font-size: 18px;
+    line-height: 1.35;
+}
+
+.address-item {
+    font-size: 18px;
+    line-height: 1.35;
+    text-underline-position: under;
+}
