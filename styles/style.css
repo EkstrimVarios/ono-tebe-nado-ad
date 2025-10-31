@@ -1,1 +1,46 @@
-/* место для вашего кода */
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 51px 89px;
+}
+
+.header-logo-img {
+    display: block;
+    width: 148px;
+    height: 105px;
+}
+/*список ссылок*/
+.header-links-list {
+    display: flex;
+    gap: 32px;
+}
+/*пункт списка ссылок*/
+.header-links-list-item {
+    list-style: circle;
+}
+/*контейнер навигации*/
+.header-menu {
+)
+/*ссылка без кружочка*/
+.header-links-list-item-no-bullit {
+
+}
+
+.header-link {
+
+}
+.header-link-active {
+}
+}
+
+.header-logo {
+
+}
+
+.address {
+
+}
+/*для выравнивания блока с адресом (в футере используется другое выравнивание)*/
+
+.header-address
