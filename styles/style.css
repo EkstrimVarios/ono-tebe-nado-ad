@@ -49,3 +49,95 @@
     line-height: 1.35;
     text-underline-position: under;
 }
+
+/* 1 СЕКЦИЯ БАННЕР */
+.cover {
+    position: relative;
+    padding: 165px 50px 50px 50px;
+    background-image: url(../images/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*полупрозрачный блок поверх секции*/
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    opacity: 0.6;
+    background-color: #000000;
+}
+/*заголовок*/
+.cover-title {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 1.15;
+    letter-spacing: 30px;
+    text-transform: uppercase;
+}
+/*классы для выравнивания строк текста и превращения их в блочный элемент*/
+.aligned-text {
+    display: block;
+}
+
+.aligned-text-center {
+    line-height: 1;
+    text-align: center;
+}
+
+.aligned-text-right {
+    line-height: 1;
+    text-align: right;
+}
+
+/*класс для управления межбуквенным расстоянием в местах, где есть эти акценты*/
+.letter-spacing-extended {
+    letter-spacing: 27px;
+}
+
+/*контейнер для подзаголовка и кнопки*/
+.cover-description {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 78px;
+    padding: 136px 0 0;
+}
+/*текст подзаголовка*/
+.cover-description-text {
+    color: #fff;
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    word-spacing: 18px;
+}
+/*кнопка «Сделать ставку»*/
+.bet-button {
+    border: 1px #fff solid;
+    padding: 14px 32px;
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 1;
+    text-transform: uppercase;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.bet-button:hover {
+    color: #000000;
+    background-color: #fff;
+}
+
+/* 2 СЕКЦИЯ ЛОТЫ */
